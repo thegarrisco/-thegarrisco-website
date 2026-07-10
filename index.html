@@ -7,7 +7,42 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
+...your existing CSS...
+
+/* Paste the new CSS here */
+
+header, section, footer {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h1, h2, h3 {
+  color: #1f3a5f;
+}
+
+section {
+  background: white;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+a[href^="tel"] {
+  display: inline-block;
+  background: #1f3a5f;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a[href^="tel"]:hover {
+  background: #2d4f7d;
+}
+
+</style><style>
 body {
   font-family: Arial, sans-serif;
   margin: 0;
