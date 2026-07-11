@@ -6,252 +6,173 @@
 
 <title>The Garris Co. | Painting & Home Improvements</title>
 
-<meta name="description" content="The Garris Co. provides professional interior and exterior painting, flooring, repairs, and home improvement services. Call 803-554-0421 for a free estimate.">
+<meta name="description" content="The Garris Co. provides professional interior and exterior painting, flooring, repairs, and home improvements. Call 803-554-0421 for a free estimate.">
 
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Segoe UI",Arial,sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
+html{
+scroll-behavior:smooth;
 }
 
-body {
-    background: #d8c8b8;
-    color: #2b1238;
+body{
+background:#f8f6f1;
+color:#24102f;
 }
 
-header {
-    background: #b8a0d9;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+header{
+background:linear-gradient(135deg,#24102f,#4b1f6f);
+padding:20px;
+position:sticky;
+top:0;
+z-index:999;
+box-shadow:0 8px 25px rgba(0,0,0,.2);
 }
 
-.logo img {
-    width: 200px;
-    height: auto;
-    display: block;
-    margin: auto;
+.logo img{
+width:220px;
+display:block;
+margin:auto;
 }
 
-.slogan {
-    text-align: center;
-    color: #f5d547;
-    font-family: "Arial Rounded MT Bold", Arial, sans-serif;
-    text-shadow: 2px 2px 4px rgba(0,0,0,.25);
+.slogan{
+text-align:center;
+color:#f5d547;
+margin-top:15px;
 }
 
-.main-slogan {
-    font-size: 32px;
-    font-weight: 900;
-    letter-spacing: 1.5px;
+.main-slogan{
+font-size:36px;
+font-weight:900;
+letter-spacing:2px;
 }
 
-.sub-slogan {
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 5px;
-    letter-spacing: 1px;
+.sub-slogan{
+font-size:20px;
+font-weight:bold;
 }
 
+nav{
+text-align:center;
+margin-top:25px;
 }
 
-
-
-
-nav {
-    margin-top: 20px;
-    text-align: center;
+nav a{
+display:inline-block;
+margin:6px;
+padding:12px 22px;
+background:#f5d547;
+color:#24102f;
+border-radius:30px;
+font-weight:900;
+text-decoration:none;
 }
 
-nav a {
-    display: inline-block;
-    margin: 5px;
-    padding: 10px 18px;
-    background: #d96b7b;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    font-weight: bold;
+nav a:hover{
+background:white;
 }
 
-nav a:hover {
-    background: #f5d547;
-    color: #4b1f6f;
+.hero{
+min-height:600px;
+background:
+linear-gradient(rgba(36,16,47,.65),rgba(36,16,47,.65)),
+url("https://images.unsplash.com/photo-1616486338812-3dadae4b4ace")
+center/cover;
+
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:40px;
 }
 
-.hero {
-    background: linear-gradient(
-        rgba(36,16,47,.8),
-        rgba(36,16,47,.8)
-    ),
-    url("tgc-logo.png") center/contain no-repeat;
-
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 40px;
+.hero h1{
+color:white;
+font-size:55px;
+max-width:900px;
 }
 
-.hero h1 {
-    color: white;
-    font-size: 48px;
-    margin-bottom: 20px;
+.hero p{
+color:#f5d547;
+font-size:24px;
+margin:25px 0;
 }
 
-.hero p {
-    color: #f5d547;
-    font-size: 22px;
-    margin-bottom: 30px;
+.button{
+display:inline-block;
+padding:16px 32px;
+margin:10px;
+border-radius:40px;
+background:#f5d547;
+color:#24102f;
+text-decoration:none;
+font-weight:900;
+box-shadow:0 8px 20px rgba(0,0,0,.25);
 }
 
-.button {
-    display: inline-block;
-    padding: 15px 30px;
-    background: #f5d547;
-    color: #24102f;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 10px;
+.button:hover{
+background:#d61f8c;
+color:white;
 }
 
-.button:hover {
-    background: #d61f8c;
-    color: white;
+section{
+padding:80px 25px;
 }
 
-section {
-    padding: 60px 20px;
-}
+.section-title{
+text-align:center;
+font-size:40px;
+color:#4b1f6f;
+margin-bottom:40px;
+}<div class="cards">
 
-.section-title {
-    text-align: center;
-    font-size: 36px;
-    color: #24102f;
-    margin-bottom: 35px;
-}
-@media (max-width: 600px) {
-
-    header {
-        padding: 8px 10px;
-    }
-
-    .logo img {
-        width: 120px;
-    }
-
-    .main-slogan {
-        font-size: 24px;
-    }
-
-    .sub-slogan {
-        font-size: 15px;
-    }
-
-    nav a {
-        padding: 7px 10px;
-        margin: 3px;
-        font-size: 14px;
-    }
-    nav {
-        display: flex;
-        overflow-x: auto;
-        white-space: nowrap;
-        justify-content: flex-start;
-    }
-
-    nav a {
-        flex-shrink: 0;
-    }
-}
-</style>
-
-</head>
-
-<body>
-
-<header>
-
-<div class="logo">
-<img src="Tgc logo.jpeg" alt="The Garris Co. Logo">
+<div class="card">
+<h3>Interior & Exterior Painting</h3>
+<p>Professional painting with clean lines, attention to detail, and a finish designed to transform your home.</p>
 </div>
 
-<div class="slogan">
-    <div class="main-slogan">Professional Painting</div>
-    <div class="sub-slogan">Trusted Home Improvements</div>
+<div class="card">
+<h3>Flooring Installation</h3>
+<p>Quality flooring solutions that refresh your space and add lasting value to your home.</p>
 </div>
 
-<nav>
-<a href="#services">Services</a>
-<a href="#reviews">Reviews</a>
-<a href="#gallery">Gallery</a>
-<a href="#contact">Contact</a>
-<a href="#service-areas">Service Areas</a>
-</nav>
-
-</header>
-
-
-<section class="hero">
-
-<div>
-
-<h1>
-Transform Your Home With Confidence
-</h1>
-
-<p>
-Premium Painting • Flooring • Repairs • Improvements
-</p>
-
-<a href="tel:8035540421" class="button">
-    📞 Call For A Free Estimate
-</a>
-
-<a href="sms:8035540421" class="button">
-    💬 Text For A Free Estimate
-</a>
+<div class="card">
+<h3>Home Repairs & Improvements</h3>
+<p>From small repairs to larger upgrades, we help keep your home looking its absolute best.</p>
+</div>
 
 </div>
 
 </section>
 
-<section id="services">
+
+<section>
 
 <h2 class="section-title">
-Our Services
+Why Choose The Garris Co.
 </h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>Interior & Exterior Painting</h3>
-<p>
-Professional wall, trim, ceiling, and exterior painting with attention to detail and a clean finish.
-</p>
+<h3>Quality Craftsmanship</h3>
+<p>We take pride in every project and treat your home like it is our own.</p>
 </div>
 
 <div class="card">
-<h3>Flooring Installation</h3>
-<p>
-Quality flooring solutions to refresh and upgrade your home's look and feel.
-</p>
+<h3>Reliable Service</h3>
+<p>Clear communication, dependable scheduling, and professional results.</p>
 </div>
 
 <div class="card">
-<h3>Home Repairs & Handyman</h3>
-<p>
-From small repairs to larger improvements, we help keep your home looking its best.
-</p>
+<h3>Local Experience</h3>
+<p>Proudly serving Rock Hill, Fort Mill, York, Clover, Charlotte and surrounding areas.</p>
 </div>
 
 </div>
@@ -261,9 +182,12 @@ From small repairs to larger improvements, we help keep your home looking its be
 
 <section id="reviews">
 
-<h2 class="section-title">Reviews</h2>
+<h2 class="section-title">
+Reviews
+</h2>
 
 <script src="https://elfsightcdn.com/platform.js" async></script>
+
 <div class="elfsight-app-b97e5ca9-17b2-4848-b8ca-9011381ad3a2" data-elfsight-app-lazy></div>
 
 </section>
@@ -277,19 +201,13 @@ Project Gallery
 
 <div class="gallery">
 
-<img src="IMG_1803.jpeg" alt="Interior painting project by The Garris Co.">
-
-<img src="IMG_1805.jpeg" alt="Professional painting work by The Garris Co.">
-
-<img src="IMG_3311.jpeg" alt="Home improvement project by The Garris Co.">
-
-<img src="IMG_3312.jpeg" alt="Home renovation project by The Garris Co.">
-
-<img src="IMG_3330.jpeg" alt="Flooring installation by The Garris Co.">
-
-<img src="IMG_3336.jpeg" alt="Completed home improvement project by The Garris Co.">
-
-<img src="IMG_8603.jpeg" alt="Finished painting project by The Garris Co.">
+<img src="IMG_1803.jpeg">
+<img src="IMG_1805.jpeg">
+<img src="IMG_3311.jpeg">
+<img src="IMG_3312.jpeg">
+<img src="IMG_3330.jpeg">
+<img src="IMG_3336.jpeg">
+<img src="IMG_8603.jpeg">
 
 </div>
 
@@ -304,9 +222,7 @@ Contact The Garris Co.
 
 <div class="contact">
 
-<p>
-Ready to update your home?
-</p>
+<h2>Ready to Transform Your Home?</h2>
 
 <p>
 Call today for your free estimate.
@@ -316,159 +232,246 @@ Call today for your free estimate.
 803-554-0421
 </a>
 
+<a class="button" href="sms:8035540421">
+Text Us
+</a>
+
 </div>
 
 </section>
 
+
 <style>
 
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
+.cards{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
 }
 
-.card {
-    background: white;
-    width: 300px;
-    padding: 30px;
-    border-radius: 20px;
-    text-align: center;
-    border-top: 8px solid #d61f8c;
-    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+.card{
+background:white;
+width:320px;
+padding:35px;
+border-radius:25px;
+border-top:7px solid #f5d547;
+box-shadow:0 15px 35px rgba(0,0,0,.12);
+text-align:center;
 }
 
-.card h3 {
-    color: #24102f;
-    margin-bottom: 15px;
-    font-size: 24px;
+.card h3{
+color:#4b1f6f;
+font-size:25px;
+margin-bottom:15px;
 }
 
-.card p {
-    line-height: 1.6;
+.card p{
+line-height:1.7;
 }
 
-
-.reviews {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
+.gallery{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
 }
 
-.review {
-    background: white;
-    width: 300px;
-    padding: 25px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+.gallery img{
+width:320px;
+height:240px;
+object-fit:cover;
+border-radius:25px;
+box-shadow:0 12px 30px rgba(0,0,0,.18);
 }
 
-.review strong {
-    display: block;
-    margin-top: 15px;
-    color: #f5d547;
-    font-size: 24px;
+.contact{
+background:#24102f;
+color:white;
+padding:50px;
+max-width:750px;
+margin:auto;
+border-radius:30px;
+text-align:center;
 }
 
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+.contact h2{
+margin-bottom:20px;
 }
 
-.gallery img {
-    width: 300px;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 20px;
-    border: 5px solid #24102f;
-}
+.contact p{
+font-size:22px;
+margin-bottom:20px;
+}<div class="cards">
 
+<div class="card">
+<h3>Interior & Exterior Painting</h3>
+<p>Professional painting with clean lines, attention to detail, and a finish designed to transform your home.</p>
+</div>
 
-.contact {
-    text-align: center;
-    background: #24102f;
-    color: white;
-    padding: 40px;
-    border-radius: 25px;
-    max-width: 700px;
-    margin: auto;
-}
+<div class="card">
+<h3>Flooring Installation</h3>
+<p>Quality flooring solutions that refresh your space and add lasting value to your home.</p>
+</div>
 
-.contact p {
-    font-size: 22px;
-    margin-bottom: 15px;
-}
+<div class="card">
+<h3>Home Repairs & Improvements</h3>
+<p>From small repairs to larger upgrades, we help keep your home looking its absolute best.</p>
+</div>
 
-
-footer {
-    background: #24102f;
-    color: white;
-    text-align: center;
-    padding: 25px;
-    margin-top: 40px;
-}
-
-
-@media(max-width:700px){
-
-.hero h1 {
-    font-size: 34px;
-}
-
-.hero p {
-    font-size: 18px;
-}
-
-nav a {
-    display: block;
-    margin: 8px auto;
-    max-width: 220px;
-}
-
-.card,
-.review {
-    width: 90%;
-}
-
-.gallery img {
-    width: 90%;
-}
-
-}
-
-</style>
-
-
-<footer>
-
-<p>
-© 2026 The Garris Co. | Painting & Home Improvements
-</p>
-
-<p>
-Serving our local community with quality craftsmanship.
-</p>
-<section id="service-areas">
-
-    <h2 class="section-title">Service Areas</h2>
-
-    <p style="text-align:center;">
-        Proudly serving Rock Hill, SC and surrounding areas with professional painting and home improvement services.
-    </p>
-
-    <p style="text-align:center; font-weight:bold; margin-top:20px;">
-        Rock Hill • Fort Mill • York • Clover • Charlotte and surrounding areas.
-    </p>
+</div>
 
 </section>
-</footer>
 
 
-</body>
-</html>
+<section>
+
+<h2 class="section-title">
+Why Choose The Garris Co.
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Quality Craftsmanship</h3>
+<p>We take pride in every project and treat your home like it is our own.</p>
+</div>
+
+<div class="card">
+<h3>Reliable Service</h3>
+<p>Clear communication, dependable scheduling, and professional results.</p>
+</div>
+
+<div class="card">
+<h3>Local Experience</h3>
+<p>Proudly serving Rock Hill, Fort Mill, York, Clover, Charlotte and surrounding areas.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="reviews">
+
+<h2 class="section-title">
+Reviews
+</h2>
+
+<script src="https://elfsightcdn.com/platform.js" async></script>
+
+<div class="elfsight-app-b97e5ca9-17b2-4848-b8ca-9011381ad3a2" data-elfsight-app-lazy></div>
+
+</section>
+
+
+<section id="gallery">
+
+<h2 class="section-title">
+Project Gallery
+</h2>
+
+<div class="gallery">
+
+<img src="IMG_1803.jpeg">
+<img src="IMG_1805.jpeg">
+<img src="IMG_3311.jpeg">
+<img src="IMG_3312.jpeg">
+<img src="IMG_3330.jpeg">
+<img src="IMG_3336.jpeg">
+<img src="IMG_8603.jpeg">
+
+</div>
+
+</section>
+
+
+<section id="contact">
+
+<h2 class="section-title">
+Contact The Garris Co.
+</h2>
+
+<div class="contact">
+
+<h2>Ready to Transform Your Home?</h2>
+
+<p>
+Call today for your free estimate.
+</p>
+
+<a class="button" href="tel:8035540421">
+803-554-0421
+</a>
+
+<a class="button" href="sms:8035540421">
+Text Us
+</a>
+
+</div>
+
+</section>
+
+
+<style>
+
+.cards{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.card{
+background:white;
+width:320px;
+padding:35px;
+border-radius:25px;
+border-top:7px solid #f5d547;
+box-shadow:0 15px 35px rgba(0,0,0,.12);
+text-align:center;
+}
+
+.card h3{
+color:#4b1f6f;
+font-size:25px;
+margin-bottom:15px;
+}
+
+.card p{
+line-height:1.7;
+}
+
+.gallery{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+}
+
+.gallery img{
+width:320px;
+height:240px;
+object-fit:cover;
+border-radius:25px;
+box-shadow:0 12px 30px rgba(0,0,0,.18);
+}
+
+.contact{
+background:#24102f;
+color:white;
+padding:50px;
+max-width:750px;
+margin:auto;
+border-radius:30px;
+text-align:center;
+}
+
+.contact h2{
+margin-bottom:20px;
+}
+
+.contact p{
+font-size:22px;
+margin-bottom:20px;
+}
