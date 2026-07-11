@@ -162,7 +162,16 @@ section {
         margin: 3px;
         font-size: 14px;
     }
+    nav {
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        justify-content: flex-start;
+    }
 
+    nav a {
+        flex-shrink: 0;
+    }
 [id] {
     scroll-margin-top: 160px;
 }
