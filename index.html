@@ -1,794 +1,292 @@
-l<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>The Garris Co. | Professional Painting & Home Improvements</title>
 
-<meta name="description" content="The Garris Co. provides professional interior and exterior painting, flooring, repairs, pressure washing, and home improvements in Rock Hill, SC and surrounding areas. Call today for a free estimate.">
+<meta name="description" content="The Garris Co. provides professional painting, flooring, repairs, pressure washing and home improvement services in Rock Hill and surrounding areas.">
 
-<
-</style>
+<link rel="stylesheet" href="style.css">
 
-
-
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-html {
-    scroll-padding-top: 150px;
-}
-
-body {
-    margin: 0;
-    font-family: 'Poppins', Arial, sans-serif;
-    background: #f8f6f1;
-    color: #24102f;
-    line-height: 1.6;
-}
-
-
-
-
-header {
-    background: linear-gradient(135deg, #cbb5f4, #b99ae8);
-    padding: 20px 20px 25px;
-    text-align: center;
-    border-bottom: 4px solid #f08f86;
-}
-
-.logo {
-    width: 230px;
-    max-width: 85%;
-    height: auto;
-    display: block;
-    margin: 5px auto;
-    border-radius: 18px;
-}
-
-
-
-.slogan {
-    color: #d9aa19;
-    font-size: 1.7rem;
-    font-weight: 900;
-    line-height: 1.25;
-    margin: 8px auto 0;
-    text-align: center;
-    text-shadow: 1px 2px 3px rgba(0,0,0,.15);
-
-    }
-    
-
-    
-
-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 12px 20px 25px;
-    background: #ffffff;
-}
-
-nav a {
-    background: #f08f86;
-    color: white;
-    text-decoration: none;
-    padding: 14px 25px;
-    border-radius: 35px;
-    font-weight: 800;
-    font-size: 1rem;
-    width: 90%;
-    max-width: 600px;
-    text-align: center;
-    box-shadow: 0 5px 12px rgba(0,0,0,.12);
-    transition: .25s ease;
-}
-
-nav a:hover {
-    background: #e87970;
-    transform: translateY(-
-
-
-.call-button,
-.text-button {
-    width: 58px;
-    height: 58px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    right: 25px;
-    z-index: 999;
-    color: white;
-    text-decoration: none;
-    font-size: 1.4rem;
-    box-shadow: 0 6px 18px rgba(0,0,0,.2);
-}
-
-.call-button {
-    bottom: 110px;
-    background: #f08f86;
-}
-
-.text-button {
-    bottom: 35px;
-    background: #d9aa19;
-}
-
-.call-button:hover,
-.text-button:hover {
-    transform: scale(1.05);
-}
-
-
-
-section {
-    max-width: 1100px;
-    margin: 35px auto;
-    padding: 35px 25px;
-    background: white;
-    border-radius: 25px;
-    box-shadow: 0 8px 25px rgba(0,0,0,.08);
-}
-
-
-h1,
-h2,
-h3 {
-    text-align: center;
-    color: #4b1f6f;
-    font-weight: 900;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-
-
-.hero {
-    text-align: center;
-    padding: 35px 25px;
-}
-
-.hero p {
-    max-width: 750px;
-    margin: auto;
-    font-size: 1.15rem;
-}
-
-
-
-.services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
-    gap: 20px;
-}
-
-.service-card {
-    background: #faf4ff;
-    border: 2px solid #e4d4ff;
-    border-radius: 20px;
-    padding: 25px;
-    text-align: center;
-    transition: .25s ease;
-}
-
-.service-card:hover {
-    transform: translateY(-5px);
-}
-
-
-
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 18px;
-}
-
-
-
-.reviews {
-    background: #fff8f6;
-    border: 2px solid #f7c1bb;
-}
-
-
-
-footer {
-    background: #24102f;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-}
-
-
-
-@media(max-width:700px){
-
-    header {
-        padding: 18px 10px 22px;
-    }
-
-    .logo {
-        width: 220px;
-    }
-
-    .slogan {
-        font-size: 1.45rem;
-    }
-
-    nav a {
-        width: 100%;
-        max-width: 600px;
-    }
-
-    section {
-        margin: 25px 12px;
-        padding: 25px 15px;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-}
 </head>
+
 
 <body>
 
-<header>
 
-<img src="Tgc logo.jpeg" alt="The Garris Co Logo" class="logo">
+<header class="site-header">
 
-<div class="slogan">
-Trusted Home Improvements Done Right
-</div>
+    <div class="nav-wrap">
+
+        <nav class="main-nav">
+
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#areas">Service Areas</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </div>
+
+
+    <div class="logo-area">
+
+        <img src="Tgc logo.jpeg" 
+             alt="The Garris Co Logo"
+             class="company-logo">
+
+        <h1>The Garris Co.</h1>
+
+        <p class="tagline">
+            Quality Work • Honest Service • Beautiful Results
+        </p>
+
+    </div>
+
 
 </header>
 
 
-<nav>
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#gallery">Gallery</a>
-<a href="#reviews">Reviews</a>
-<a href="#contact">Contact</a>
-</nav>
-
-
-<section class="hero" id="home">
-
-<div class="hero-content">
-
-<h1>The Garris Co.</h1>
-
-<p>
-Professional Painting & Home Improvements<br>
-Serving Rock Hill, SC and surrounding areas
-</p>
-
-<div class="buttons">
-
-<a class="btn call" href="tel:8035540421">
-📞 Call Now
-</a>
-
-<a class="btn text" href="sms:8035540421">
-💬 Text Us
-</a>
-
-<a class="btn estimate" href="#contact">
-📝 Free Estimate
-</a>
-
-</div>
-
-</div>
-
-</section><!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>The Garris Co. | Professional Painting & Home Improvements</title>
-
-<meta name="description" content="The Garris Co. provides professional interior and exterior painting, flooring, repairs, pressure washing, and home improvements in Rock Hill, SC and surrounding areas. Call today for a free estimate.">
-
-<style>
-
-:root {
-    --lavender: #b79ced;
-    --salmon: #f28c82;
-    --gold: #d8aa35;
-    --cream: #f8f6f1;
-    --white: #ffffff;
-    --dark: #2b2230;
-    --shadow: 0 8px 25px rgba(0,0,0,.12);
-}
-
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: var(--cream);
-    color: var(--dark);
-}
-
-header {
-    background: var(--lavender);
-    text-align: center;
-    padding: 25px 15px 35px;
-    box-shadow: var(--shadow);
-}
-
-.logo {
-    width: 220px;
-    max-width: 85%;
-    border-radius: 15px;
-}
-
-.slogan {
-    margin-top: 15px;
-    font-size: 28px;
-    font-weight: 900;
-    color: var(--gold);
-    text-shadow: 1px 1px 2px rgba(0,0,0,.2);
-}
-
-nav {
-    background: var(--white);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    padding: 15px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: var(--shadow);
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    background: var(--salmon);
-    padding: 12px 22px;
-    border-radius: 30px;
-    font-weight: bold;
-    transition: .3s;
-}
-
-nav a:hover {
-    transform: translateY(-3px);
-    opacity: .85;
-}
-
-.hero {
-    min-height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 40px 20px;
-    background:
-    linear-gradient(rgba(248,246,241,.75), rgba(248,246,241,.9)),
-    url("hero.jpg") center/cover;
-}
-
-.hero-content {
-    max-width: 800px;
-}
-
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
-}
-
-.hero p {
-    font-size: 22px;
-    line-height: 1.5;
-}
-
-.buttons {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 15px 30px;
-    border-radius: 35px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    transition: .3s;
-}
-
-.call {
-    background: var(--salmon);
-    color: white;
-}
-
-.text {
-    background: var(--gold);
-    color: white;
-}
-
-.estimate {
-    background: var(--dark);
-    color: white;
-}
-
-.btn:hover {
-    transform: translateY(-4px);
-}
-
-section {
-    padding: 70px 20px;
-}
-
-.section-title {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-
-.card {
-    background: white;
-    border-radius: 20px;
-    padding: 25px;
-    box-shadow: var(--shadow);
-}
-
-</style>
-</head>
-
-<body>
-
-<header>
-
-<img src="Tgc logo.jpeg" alt="The Garris Co Logo" class="logo">
-
-<div class="slogan">
-Trusted Home Improvements Done Right
-</div>
-
-</header>
-
-
-<nav>
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#gallery">Gallery</a>
-<a href="#reviews">Reviews</a>
-<a href="#contact">Contact</a>
-</nav>
-
-
-<section class="hero" id="home">
-
-<div class="hero-content">
-
-<h1>The Garris Co.</h1>
-
-<p>
-Professional Painting & Home Improvements<br>
-Serving Rock Hill, SC and surrounding areas
-</p>
-
-<div class="buttons">
-
-<a class="btn call" href="tel:8035540421">
-📞 Call Now
-</a>
-
-<a class="btn text" href="sms:8035540421">
-💬 Text Us
-</a>
-
-<a class="btn estimate" href="#contact">
-📝 Free Estimate
-</a>
-
-</div>
-
-</div>
-
-</section><section id="services">
-
-<h2 class="section-title">Our Services</h2>
-
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;max-width:1100px;margin:auto;">
-
-<div class="card">
-<h3>🎨 Interior Painting</h3>
-<p>
-Fresh, clean interior painting that transforms your home with professional preparation and attention to detail.
-</p>
-</div>
-
-<div class="card">
-<h3>🏠 Exterior Painting</h3>
-<p>
-Protect and improve your home's curb appeal with quality exterior painting built to last.
-</p>
-</div>
-
-<div class="card">
-<h3>🪵 Flooring</h3>
-<p>
-Floor repairs, replacements, and upgrades to give your home a fresh new look.
-</p>
-</div>
-
-<div class="card">
-<h3>🔨 Home Repairs</h3>
-<p>
-From small repairs to larger improvement projects, we help keep your home looking its best.
-</p>
-</div>
-
-<div class="card">
-<h3>💦 Pressure Washing</h3>
-<p>
-Remove years of dirt and buildup and bring your exterior surfaces back to life.
-</p>
-</div>
-
-<div class="card">
-<h3>⚡ Installations</h3>
-<p>
-Professional installation help for your home's improvement projects.
-</p>
-</div>
-
-</div>
+
+
+<section id="home" class="hero">
+
+
+    <div class="hero-content">
+
+
+        <h2>
+            Professional Painting & Home Improvements
+        </h2>
+
+
+        <p>
+            Transform your home with dependable craftsmanship,
+            attention to detail, and a company you can trust.
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="tel:8035540421" class="primary-btn">
+                Call For A Free Estimate
+            </a>
+
+
+            <a href="sms:8035540421" class="secondary-btn">
+                Text Us Today
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+<section class="intro">
+
+    <h2>
+        Trusted Home Improvements In Rock Hill & Surrounding Areas
+    </h2>
+
+    <p>
+        The Garris Co. specializes in professional painting,
+        flooring, repairs, and home improvements. We focus on
+        quality workmanship, clean job sites, and results that
+        make your home stand out.
+    </p>
 
 </section>
 
 
 
-<section id="gallery">
+<section id="services" class="services">
 
-<h2 class="section-title">Our Work</h2>
+    <h2>Our Services</h2>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:1100px;margin:auto;">
 
-<div class="card">
-<img src="IMG_180.jpg" alt="Painting project" style="width:100%;border-radius:15px;">
-</div>
+    <div class="service-container">
 
-<div class="card">
-<img src="IMG_181.jpg" alt="Home improvement project" style="width:100%;border-radius:15px;">
-</div>
 
-<div class="card">
-<img src="IMG_182.jpg" alt="Finished project" style="width:100%;border-radius:15px;">
-</div>
+        <div class="service-box">
 
-</div>
+            <h3>🎨 Professional Painting</h3>
 
-<p style="text-align:center;margin-top:25px;">
-More project photos coming soon!
-</p>
+            <p>
+                Interior and exterior painting with careful
+                preparation, clean finishes, and attention to detail.
+            </p>
+
+        </div>
+
+
+
+        <div class="service-box">
+
+            <h3>🏠 Home Improvements</h3>
+
+            <p>
+                Repairs, upgrades, and improvements that add
+                comfort and value to your home.
+            </p>
+
+        </div>
+
+
+
+        <div class="service-box">
+
+            <h3>🪵 Flooring</h3>
+
+            <p>
+                Flooring updates and installations designed
+                to refresh your space.
+            </p>
+
+        </div>
+
+
+
+        <div class="service-box">
+
+            <h3>💦 Pressure Washing</h3>
+
+            <p>
+                Exterior cleaning services that help restore
+                the look of your property.
+            </p>
+
+        </div>
+
+
+    </div>
+
 
 </section>
 
 
 
 
-<section>
+<section id="projects" class="projects">
 
-<h2 class="section-title">About The Garris Co.</h2>
 
-<div class="card" style="max-width:900px;margin:auto;text-align:center;">
+    <h2>
+        Recent Projects
+    </h2>
 
-<p>
-At The Garris Co., we believe your home deserves quality work, honest communication, and attention to detail.
 
-</p>
+    <p>
+        Quality craftsmanship you can see.
+    </p>
 
-<p>
-Founded with a passion for craftsmanship and helping homeowners improve their spaces, we provide reliable painting and home improvement services with a personal touch.
 
-</p>
+    <div class="project-grid">
 
-<p>
-From a single room refresh to larger renovation projects, our goal is simple:
-<strong>treat every home like it is our own.</strong>
-</p>
 
-</div>
+        <div class="project-image">
+            <img src="project1.jpg" alt="Painting project">
+        </div>
+
+
+        <div class="project-image">
+            <img src="project2.jpg" alt="Home improvement project">
+        </div>
+
+
+        <div class="project-image">
+            <img src="project3.jpg" alt="Interior project">
+        </div>
+
+
+    </div>
+
 
 </section>
 
 
 
 
-<section id="reviews">
 
-<h2 class="section-title">Customer Reviews</h2>
+<section id="reviews" class="reviews">
 
-<div class="card" style="max-width:1000px;margin:auto;text-align:center;">
 
-<!-- Elfsight Google Reviews -->
-<script src="https://elfsightcdn.com/platform.js" async></script>
+    <h2>
+        Customer Reviews
+    </h2>
 
-<div class="elfsight-app-b97e5ca9-17b2-4848-b8ca-9011381ad3a2" data-elfsight-app-lazy></div>
 
-</div>
+    <!-- Paste your Elfsight Google Reviews code here -->
+
+
+    <div class="review-space">
+
+        Google Reviews
+
+    </div>
+
 
 </section>
 
 
 
 
-<section>
+<section id="areas" class="areas">
 
-<h2 class="section-title">Service Areas</h2>
 
-<div class="card" style="max-width:900px;margin:auto;text-align:center;">
+    <h2>
+        Service Areas
+    </h2>
 
-<p>
-Proudly serving:
-</p>
 
-<p>
-Rock Hill • Fort Mill • York • Clover • Tega Cay • Surrounding Areas
-</p>
+    <p>
+        Serving Rock Hill, Fort Mill, York, Chester,
+        and surrounding South Carolina communities.
+    </p>
 
-<p>
-Contact us today to see if we can help with your next home improvement project.
-</p>
-
-</div>
 
 </section>
-  <section id="contact">
+<section id="contact" class="contact">
 
-<h2 class="section-title">Contact The Garris Co.</h2>
+    <h2>
+        Ready To Improve Your Home?
+    </h2>
 
-<div class="card" style="max-width:900px;margin:auto;text-align:center;">
+    <p>
+        Contact The Garris Co. today for your free estimate.
+    </p>
 
-<h3>Ready to improve your home?</h3>
 
-<p>
-Contact us today for a free estimate.
-</p>
+    <div class="contact-buttons">
 
-<div class="buttons">
+        <a href="tel:8035540421" class="primary-btn">
+            Call 803-554-0421
+        </a>
 
-<a class="btn call" href="tel:8035540421">
-📞 803-554-0421
-</a>
+        <a href="sms:8035540421" class="secondary-btn">
+            Text Us
+        </a>
 
-<a class="btn text" href="sms:8035540421">
-💬 Text For An Estimate
-</a>
-
-</div>
-
-<p style="margin-top:25px;">
-Serving Rock Hill, SC and surrounding communities.
-</p>
-
-</div>
+    </div>
 
 </section>
 
 
+<footer>
 
-
-<!-- Floating Mobile Contact Buttons -->
-
-<div style="
-position:fixed;
-bottom:20px;
-right:20px;
-display:flex;
-flex-direction:column;
-gap:12px;
-z-index:999;
-">
-
-<a href="tel:8035540421"
-style="
-background:#f28c82;
-color:white;
-padding:15px;
-border-radius:50%;
-text-decoration:none;
-font-size:22px;
-box-shadow:0 5px 15px rgba(0,0,0,.25);
-">
-📞
-</a>
-
-<a href="sms:8035540421"
-style="
-background:#d8aa35;
-color:white;
-padding:15px;
-border-radius:50%;
-text-decoration:none;
-font-size:22px;
-box-shadow:0 5px 15px rgba(0,0,0,.25);
-">
-💬
-</a>
-
-</div>
-
-
-
-
-
-<footer style="
-background:#b79ced;
-padding:40px 20px;
-text-align:center;
-color:#2b2230;
-">
-
-<h3>The Garris Co.</h3>
-
-<p>
-Professional Painting & Home Improvements
-</p>
-
-<p>
-© 2026 The Garris Co. All Rights Reserved.
-</p>
+    <p>
+        © 2026 The Garris Co. | Painting & Home Improvements
+    </p>
 
 </footer>
-
-
-
-
-
-<style>
-
-@media(max-width:700px){
-
-.hero h1{
-font-size:36px;
-}
-
-.hero p{
-font-size:18px;
-}
-
-.slogan{
-font-size:22px;
-}
-
-nav a{
-width:90%;
-text-align:center;
-}
-
-}
-
-</style>
 
 
 </body>
