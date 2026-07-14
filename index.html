@@ -8,160 +8,241 @@ l<!DOCTYPE html>
 
 <meta name="description" content="The Garris Co. provides professional interior and exterior painting, flooring, repairs, pressure washing, and home improvements in Rock Hill, SC and surrounding areas. Call today for a free estimate.">
 
-<style>
+<
+</style>
 
-:root {
-    --lavender: #b79ced;
-    --salmon: #f28c82;
-    --gold: #d8aa35;
-    --cream: #f8f6f1;
-    --white: #ffffff;
-    --dark: #2b2230;
-    --shadow: 0 8px 25px rgba(0,0,0,.12);
-}
+
 
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: var(--cream);
-    color: var(--dark);
+html {
+    scroll-padding-top: 150px;
 }
 
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #f8f6f1;
+    color: #24102f;
+    line-height: 1.6;
+}
+
+
+
+
 header {
-    background: var(--lavender);
+    background: linear-gradient(135deg, #cbb5f4, #b99ae8);
+    padding: 20px 20px 25px;
     text-align: center;
-    padding: 25px 15px 35px;
-    box-shadow: var(--shadow);
+    border-bottom: 4px solid #f08f86;
 }
 
 .logo {
-    width: 220px;
+    width: 230px;
     max-width: 85%;
-    border-radius: 15px;
+    height: auto;
+    display: block;
+    margin: 5px auto;
+    border-radius: 18px;
 }
+
+
 
 .slogan {
-    margin-top: 15px;
-    font-size: 28px;
+    color: #d9aa19;
+    font-size: 1.7rem;
     font-weight: 900;
-    color: var(--gold);
-    text-shadow: 1px 1px 2px rgba(0,0,0,.2);
-}
+    line-height: 1.25;
+    margin: 8px auto 0;
+    text-align: center;
+    text-shadow: 1px 2px 3px rgba(0,0,0,.15);
+
+    }
+    
+
+    
 
 nav {
-    background: var(--white);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 12px;
-    padding: 15px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: var(--shadow);
+    gap: 10px;
+    padding: 12px 20px 25px;
+    background: #ffffff;
 }
 
 nav a {
-    text-decoration: none;
+    background: #f08f86;
     color: white;
-    background: var(--salmon);
-    padding: 12px 22px;
-    border-radius: 30px;
-    font-weight: bold;
-    transition: .3s;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 35px;
+    font-weight: 800;
+    font-size: 1rem;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 5px 12px rgba(0,0,0,.12);
+    transition: .25s ease;
 }
 
 nav a:hover {
-    transform: translateY(-3px);
-    opacity: .85;
-}
+    background: #e87970;
+    transform: translateY(-
 
-.hero {
-    min-height: 600px;
+
+.call-button,
+.text-button {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    right: 25px;
+    z-index: 999;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,.2);
+}
+
+.call-button {
+    bottom: 110px;
+    background: #f08f86;
+}
+
+.text-button {
+    bottom: 35px;
+    background: #d9aa19;
+}
+
+.call-button:hover,
+.text-button:hover {
+    transform: scale(1.05);
+}
+
+
+
+section {
+    max-width: 1100px;
+    margin: 35px auto;
+    padding: 35px 25px;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+}
+
+
+h1,
+h2,
+h3 {
     text-align: center;
-    padding: 40px 20px;
-    background:
-    linear-gradient(rgba(248,246,241,.75), rgba(248,246,241,.9)),
-    url("hero.jpg") center/cover;
+    color: #4b1f6f;
+    font-weight: 900;
 }
 
-.hero-content {
-    max-width: 800px;
+h1 {
+    font-size: 2.5rem;
 }
 
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
+h2 {
+    font-size: 2rem;
+}
+
+
+
+.hero {
+    text-align: center;
+    padding: 35px 25px;
 }
 
 .hero p {
-    font-size: 22px;
-    line-height: 1.5;
+    max-width: 750px;
+    margin: auto;
+    font-size: 1.15rem;
 }
 
-.buttons {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
+
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    gap: 20px;
 }
 
-.btn {
-    display: inline-block;
-    padding: 15px 30px;
-    border-radius: 35px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    transition: .3s;
-}
-
-.call {
-    background: var(--salmon);
-    color: white;
-}
-
-.text {
-    background: var(--gold);
-    color: white;
-}
-
-.estimate {
-    background: var(--dark);
-    color: white;
-}
-
-.btn:hover {
-    transform: translateY(-4px);
-}
-
-section {
-    padding: 70px 20px;
-}
-
-.section-title {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-
-.card {
-    background: white;
+.service-card {
+    background: #faf4ff;
+    border: 2px solid #e4d4ff;
     border-radius: 20px;
     padding: 25px;
-    box-shadow: var(--shadow);
+    text-align: center;
+    transition: .25s ease;
 }
 
-</style>
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+
+
+.reviews {
+    background: #fff8f6;
+    border: 2px solid #f7c1bb;
+}
+
+
+
+footer {
+    background: #24102f;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+
+
+@media(max-width:700px){
+
+    header {
+        padding: 18px 10px 22px;
+    }
+
+    .logo {
+        width: 220px;
+    }
+
+    .slogan {
+        font-size: 1.45rem;
+    }
+
+    nav a {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    section {
+        margin: 25px 12px;
+        padding: 25px 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+}
 </head>
 
 <body>
